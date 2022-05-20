@@ -10,6 +10,7 @@
 
     <modules>
         <module>ecommerce-common</module>
+        <module>ecommerce-mvc-config</module>
     </modules>
 
     <packaging>pom</packaging>
