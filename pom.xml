@@ -12,6 +12,7 @@
         <module>ecommerce-common</module>
         <module>ecommerce-mvc-config</module>
         <module>ecommerce-alibaba-nacos-client</module>
+        <module>ecommerce-springboot-admin</module>
     </modules>
 
     <packaging>pom</packaging>
