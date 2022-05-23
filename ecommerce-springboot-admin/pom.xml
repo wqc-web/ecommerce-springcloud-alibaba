@@ -35,6 +35,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
+        <!-- java mail自动化配置 -->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-mail</artifactId>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>com.self.ecommerce</groupId>
             <artifactId>ecommerce-mvc-config</artifactId>
