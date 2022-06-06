@@ -22,7 +22,7 @@ public class EcommerceUserTest {
     @Test
     public void createUserRecord(){
         EcommerceUser ecommerceUser = new EcommerceUser();
-        ecommerceUser.setUsername("wqc");
+        ecommerceUser.setUsername(System.currentTimeMillis()+"");
         ecommerceUser.setPassword(MD5.create().digestHex("123456"));
         ecommerceUser.setExtraInfo("{}");
         log.info("save user: {}", JSON.toJSON(ecommerceUserDao.save(ecommerceUser)));
