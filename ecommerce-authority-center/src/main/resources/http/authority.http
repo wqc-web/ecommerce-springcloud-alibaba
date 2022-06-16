@@ -1,0 +1,17 @@
+### 获取token --登录
+POST http://127.0.0.1:7000/ecommerce-authority-center/authority/token
+Content-Type: application/json
+
+{
+  "username" : "wqc",
+  "password" : "e10adc3949ba59abbe56e057f20f883e"
+}
+
+### 注册并返回token --注册
+POST http://127.0.0.1:7000/ecommerce-authority-center/authority/register
+Content-Type: application/json
+
+{
+  "username" : "wqc",
+  "password" : "e10adc3949ba59abbe56e057f20f883e"
+}

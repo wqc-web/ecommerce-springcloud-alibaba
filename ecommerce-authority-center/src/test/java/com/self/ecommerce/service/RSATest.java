@@ -23,7 +23,7 @@ public class RSATest {
     public void generateKeyBytes() throws NoSuchAlgorithmException {
         // 初始化
         KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
-        keyPairGenerator.initialize(1024);
+        keyPairGenerator.initialize(2048);
         // 生成公钥和私钥
         KeyPair keyPair = keyPairGenerator.generateKeyPair();
         RSAPublicKey publicKey = (RSAPublicKey) keyPair.getPublic();
