@@ -14,6 +14,7 @@
         <module>ecommerce-alibaba-nacos-client</module>
         <module>ecommerce-springboot-admin</module>
         <module>ecommerce-authority-center</module>
+        <module>ecommerce-gateway</module>
     </modules>
 
     <packaging>pom</packaging>
